@@ -1,0 +1,43 @@
+# Ignore VLT files
+.vlt
+.vlt-sync.log
+.vlt-sync-config.properties
+
+# Ignore Quickstart launches in the source tree
+license.properties
+crx-quickstart
+
+# Ignore compilation results
+target
+
+# Ignore downloaded feature packs for Communities
+aem61-fp*
+aem62-fp*
+cq-social-expert-identification-pkg*
+cq-social-scorm-pkg*
+
+# Ignore IDE and Operating System artifacts
+.idea
+.classpath
+.metadata
+.project
+.settings
+.settings/
+maven-eclipse.xml
+.idea/
+*.iml
+*.ipr
+*.iws
+.DS_Store
+*.jar
+pom.xml.versionsBackup
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
+
+cq5dam.*
+generated
